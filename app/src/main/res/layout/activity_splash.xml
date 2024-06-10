@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="196dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="527dp"
+        android:src="@drawable/logo1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/weatherTextView"
+        android:layout_width="216dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="425dp"
+        android:text="The app"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="309dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="338dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="344dp"
+        android:text="Lithemba Ntsume"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/StudentTextView"
+        android:layout_width="309dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="421dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="258dp"
+        android:text="ST10460350"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="136dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="563dp"
+        android:layout_marginEnd="236dp"
+        android:layout_marginBottom="99dp"
+        android:text="Let's Go"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="125dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="563dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="99dp"
+        android:text="exit"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
